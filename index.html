@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Origen Directo · Café del campo a tu tienda</title>
+  <meta name="description" content="Conectamos caficultores con tiendas de café especial y nos encargamos de toda la logística: recolección, procesamiento y entrega.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="brand">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="9" ry="13" transform="rotate(30 16 16)"/><path d="M10 25c4-5 8-13 12-18" /></svg>
+        </span>
+        Origen Directo
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="menu">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#caficultores">Caficultores</a>
+        <a href="#tiendas">Tiendas</a>
+        <a href="#lotes">Lotes disponibles</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#registro" class="btn btn--small">Regístrate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Del campo a la taza, sin intermediarios de más</p>
+          <h1>Conectamos a quienes cultivan el café con las tiendas que lo valoran.</h1>
+          <p class="lead">Unimos caficultores con tiendas de café especial y nos encargamos de todo lo demás: recogemos el café en la finca, lo procesamos y lo entregamos listo en la tienda.</p>
+          <div class="hero__cta">
+            <a href="#registro" data-role="caficultor" class="btn js-role">Soy caficultor</a>
+            <a href="#registro" data-role="tienda" class="btn btn--ghost js-role">Tengo una tienda</a>
+          </div>
+          <ul class="hero__stats">
+            <li><strong data-count="120">0</strong><span>fincas aliadas</span></li>
+            <li><strong data-count="45">0</strong><span>tiendas especializadas</span></li>
+            <li><strong data-count="38">0</strong><span>toneladas entregadas</span></li>
+          </ul>
+        </div>
+        <div class="hero__card" aria-hidden="true">
+          <div class="route">
+            <div class="route__stop"><span>1</span>Finca</div>
+            <div class="route__line"></div>
+            <div class="route__stop"><span>2</span>Beneficio y trilla</div>
+            <div class="route__line"></div>
+            <div class="route__stop"><span>3</span>Tostión / empaque</div>
+            <div class="route__line"></div>
+            <div class="route__stop route__stop--end"><span>4</span>Tu tienda</div>
+          </div>
+          <p class="hero__card-note">Trazabilidad completa en cada etapa</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <p class="eyebrow">Cómo funciona</p>
+        <h2>Dos servicios, un solo aliado</h2>
+        <p class="section__intro">Primero hacemos la conexión correcta entre finca y tienda. Luego nos hacemos cargo de mover, transformar y entregar el café.</p>
+
+        <div class="pillars">
+          <article class="pillar">
+            <div class="pillar__num">01</div>
+            <h3>Conexión</h3>
+            <p>Emparejamos a cada tienda con los caficultores cuyo perfil de taza, volumen y precio se ajustan a lo que busca. Negociación transparente y precio justo para el productor.</p>
+            <ul class="checks">
+              <li>Perfiles verificados de fincas y tiendas</li>
+              <li>Muestras y cata antes de comprar</li>
+              <li>Contratos claros y pagos seguros</li>
+            </ul>
+          </article>
+          <article class="pillar pillar--accent">
+            <div class="pillar__num">02</div>
+            <h3>Logística completa</h3>
+            <p>Nos encargamos de todo el recorrido. El caficultor sólo cosecha; la tienda sólo recibe el café listo para vender o preparar.</p>
+            <ul class="checks">
+              <li>Recolección directamente en la finca</li>
+              <li>Procesamiento: trilla, selección, tostión y empaque</li>
+              <li>Transporte y entrega puerta a puerta</li>
+            </ul>
+          </article>
+        </div>
+
+        <ol class="steps">
+          <li><h4>Registro</h4><p>Caficultores publican sus lotes; tiendas cuentan qué buscan.</p></li>
+          <li><h4>Match y muestras</h4><p>Proponemos fincas compatibles y enviamos muestras para catar.</p></li>
+          <li><h4>Acuerdo</h4><p>Se fija precio y volumen. Nosotros coordinamos contrato y pago.</p></li>
+          <li><h4>Recolección</h4><p>Recogemos el café en la finca en la fecha acordada.</p></li>
+          <li><h4>Procesamiento</h4><p>Trillamos, seleccionamos y, si se requiere, tostamos y empacamos.</p></li>
+          <li><h4>Entrega</h4><p>Llevamos el café listo a la tienda con seguimiento en tiempo real.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- AUDIENCIAS -->
+    <section class="section section--alt">
+      <div class="container audiences">
+        <article class="audience" id="caficultores">
+          <p class="eyebrow">Para caficultores</p>
+          <h2>Vende tu café a quien de verdad lo aprecia</h2>
+          <ul class="benefits">
+            <li><strong>Mejor precio.</strong> Vendes directo a tiendas especializadas que pagan por calidad.</li>
+            <li><strong>Cero preocupaciones de transporte.</strong> Vamos hasta tu finca a recoger la cosecha.</li>
+            <li><strong>Pagos claros y a tiempo.</strong> Sabes cuánto recibes antes de entregar.</li>
+            <li><strong>Tu historia cuenta.</strong> Tu finca y tu nombre llegan hasta la taza del cliente.</li>
+          </ul>
+          <a href="#registro" data-role="caficultor" class="btn js-role">Registrar mi finca</a>
+        </article>
+        <article class="audience" id="tiendas">
+          <p class="eyebrow">Para tiendas</p>
+          <h2>Café de origen, trazable y listo para vender</h2>
+          <ul class="benefits">
+            <li><strong>Origen verificado.</strong> Conoces la finca, la altura, la variedad y el proceso.</li>
+            <li><strong>Recibes el café listo.</strong> Verde, tostado o empacado con tu marca.</li>
+            <li><strong>Suministro constante.</strong> Planificamos cosechas para que no te quedes sin inventario.</li>
+            <li><strong>Un solo proveedor logístico.</strong> Una factura, un contacto, todo resuelto.</li>
+          </ul>
+          <a href="#registro" data-role="tienda" class="btn js-role">Registrar mi tienda</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- LOTES -->
+    <section class="section" id="lotes">
+      <div class="container">
+        <p class="eyebrow">Lotes disponibles</p>
+        <h2>Explora cafés listos para conectar</h2>
+        <p class="section__intro">Una muestra de lo que publican nuestros caficultores. Filtra por región o proceso y solicita una muestra.</p>
+
+        <div class="filters">
+          <label>Región
+            <select id="filtro-region"><option value="">Todas</option></select>
+          </label>
+          <label>Proceso
+            <select id="filtro-proceso"><option value="">Todos</option></select>
+          </label>
+          <label>Puntaje mínimo
+            <select id="filtro-puntaje">
+              <option value="0">Cualquiera</option>
+              <option value="84">84+</option>
+              <option value="86">86+</option>
+              <option value="88">88+</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="lots" id="lotes-grid"></div>
+        <p class="lots__empty" id="lotes-vacio" hidden>No hay lotes que coincidan con esos filtros.</p>
+      </div>
+    </section>
+
+    <!-- TARIFAS -->
+    <section class="section section--alt" id="tarifas">
+      <div class="container">
+        <p class="eyebrow">Tarifas</p>
+        <h2>Transparente desde el primer kilo</h2>
+        <p class="section__intro">Ganamos de dos formas y siempre sabes cuánto: una comisión por la conexión y una tarifa por el servicio logístico que elijas.</p>
+
+        <div class="pricing">
+          <article class="plan">
+            <h3>Conexión</h3>
+            <p class="plan__price">8%<span> del valor del lote</span></p>
+            <p>Pagada por la tienda sólo cuando se cierra el acuerdo. Para el caficultor, publicar es gratis.</p>
+            <ul class="checks">
+              <li>Perfil y publicación de lotes</li>
+              <li>Envío de muestras para cata</li>
+              <li>Contrato y pago protegido</li>
+            </ul>
+          </article>
+          <article class="plan plan--featured">
+            <span class="plan__badge">Más elegido</span>
+            <h3>Conexión + Logística</h3>
+            <p class="plan__price">Desde $1.800<span> COP por kg</span></p>
+            <p>Recogemos, procesamos y entregamos. El precio depende de distancia, volumen y nivel de procesamiento.</p>
+            <ul class="checks">
+              <li>Recolección en finca</li>
+              <li>Trilla, tostión y empaque</li>
+              <li>Entrega con seguimiento</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- COTIZADOR -->
+        <div class="quote" id="cotizador">
+          <h3>Cotiza tu logística</h3>
+          <form class="quote__form" id="quote-form">
+            <label>Cantidad (kg)
+              <input type="number" id="q-kg" min="10" step="10" value="200" required>
+            </label>
+            <label>Distancia finca → tienda (km)
+              <input type="number" id="q-km" min="1" step="1" value="250" required>
+            </label>
+            <label>Entrega del café
+              <select id="q-proceso">
+                <option value="verde">Verde (trillado)</option>
+                <option value="tostado" selected>Tostado a granel</option>
+                <option value="empacado">Tostado y empacado con marca</option>
+              </select>
+            </label>
+            <label>Valor del café (COP por kg)
+              <input type="number" id="q-precio" min="0" step="500" value="32000" required>
+            </label>
+          </form>
+          <dl class="quote__result" id="quote-result"></dl>
+          <p class="quote__note">Valores estimados. La cotización final se confirma con el equipo tras revisar la ruta.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGISTRO -->
+    <section class="section" id="registro">
+      <div class="container register">
+        <div>
+          <p class="eyebrow">Únete</p>
+          <h2>Empieza hoy</h2>
+          <p class="section__intro">Déjanos tus datos y un asesor te contacta en menos de 48 horas para completar tu perfil.</p>
+          <div class="testimonial">
+            <p>“Antes vendía al intermediario del pueblo. Ahora mi café llega a una tienda en Bogotá con el nombre de mi finca, y me pagan casi el doble.”</p>
+            <span>— Rosa Muñoz, caficultora en Pitalito, Huila</span>
+          </div>
+        </div>
+
+        <form class="form" id="registro-form" novalidate>
+          <div class="tabs" role="tablist">
+            <button type="button" role="tab" class="tab is-active" data-role="caficultor" aria-selected="true">Soy caficultor</button>
+            <button type="button" role="tab" class="tab" data-role="tienda" aria-selected="false">Tengo una tienda</button>
+          </div>
+
+          <label>Nombre completo
+            <input name="nombre" required autocomplete="name">
+          </label>
+          <label>Teléfono / WhatsApp
+            <input name="telefono" type="tel" required autocomplete="tel">
+          </label>
+          <label>Correo electrónico
+            <input name="correo" type="email" required autocomplete="email">
+          </label>
+
+          <div class="role-fields" data-for="caficultor">
+            <label>Nombre de la finca
+              <input name="finca">
+            </label>
+            <div class="form__row">
+              <label>Municipio / departamento
+                <input name="ubicacion" placeholder="Ej: Pitalito, Huila">
+              </label>
+              <label>Producción anual (kg)
+                <input name="produccion" type="number" min="0">
+              </label>
+            </div>
+          </div>
+
+          <div class="role-fields" data-for="tienda" hidden>
+            <label>Nombre de la tienda
+              <input name="tienda">
+            </label>
+            <div class="form__row">
+              <label>Ciudad
+                <input name="ciudad" placeholder="Ej: Medellín">
+              </label>
+              <label>Consumo mensual (kg)
+                <input name="consumo" type="number" min="0">
+              </label>
+            </div>
+          </div>
+
+          <label>Cuéntanos más (opcional)
+            <textarea name="mensaje" rows="3"></textarea>
+          </label>
+
+          <button class="btn btn--block" type="submit">Enviar registro</button>
+          <p class="form__status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#inicio" class="brand brand--light">Origen Directo</a>
+        <p>Conexión y logística para el café de especialidad.</p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>hola@origendirecto.co<br>+57 300 000 0000</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <p><a href="#como-funciona">Cómo funciona</a><br><a href="#lotes">Lotes</a><br><a href="#tarifas">Tarifas</a></p>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Origen Directo. Hecho con café.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
